@@ -1,0 +1,62 @@
+cmake:
+  application:
+    configuration-dir: '/home/goaty/Desktop/Tech/cellular-device'
+    source-dir: '/home/goaty/Desktop/Tech/cellular-device'
+  board:
+    name: 'nrf9160dk'
+    path:
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk'
+    qualifiers: 'nrf9160/ns'
+    revision: '0.14.0'
+  devicetree:
+    bindings-dirs:
+     - '/home/goaty/Desktop/Tech/nrf/dts/bindings'
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk/dts/bindings'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/bindings'
+    files:
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns.dts'
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_0_14_0.overlay'
+     - '/home/goaty/Desktop/Tech/cellular-device/boards/nrf9160dk_nrf9160_ns.overlay'
+    include-dirs:
+     - '/home/goaty/Desktop/Tech/nrf/include'
+     - '/home/goaty/Desktop/Tech/nrf/dts/common'
+     - '/home/goaty/Desktop/Tech/nrf/dts/riscv'
+     - '/home/goaty/Desktop/Tech/nrf/dts/arm'
+     - '/home/goaty/Desktop/Tech/nrf/dts'
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk/dts'
+     - '/home/goaty/Desktop/Tech/zephyr/include'
+     - '/home/goaty/Desktop/Tech/zephyr/include/zephyr'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/common'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/vendor'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/rx'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/x86'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/xtensa'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/sparc'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/riscv'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/posix'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/arm64'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/arm'
+     - '/home/goaty/Desktop/Tech/zephyr/dts/arc'
+     - '/home/goaty/Desktop/Tech/zephyr/dts'
+    user-files:
+     - '/home/goaty/Desktop/Tech/cellular-device/boards/nrf9160dk_nrf9160_ns.overlay'
+  images:
+   - name: 'tfm'
+     source-dir: '/home/goaty/Desktop/Tech/modules/tee/tf-m/trusted-firmware-m'
+  kconfig:
+    files:
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_defconfig'
+     - '/home/goaty/Desktop/Tech/cellular-device/prj.conf'
+     - '/home/goaty/Desktop/Tech/cellular-device/build/cellular-device/zephyr/.config.sysbuild'
+    user-files:
+     - '/home/goaty/Desktop/Tech/cellular-device/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/goaty/ncs/toolchains/43683a87ea/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: '/home/goaty/Desktop/Tech/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf9160.svd'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: '/home/goaty/Desktop/Tech/zephyr'
+version: '0.1.0'

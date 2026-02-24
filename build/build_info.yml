@@ -1,0 +1,26 @@
+cmake:
+  application:
+    source-dir: '/home/goaty/Desktop/Tech/zephyr/share/sysbuild'
+  board:
+    name: 'nrf9160dk'
+    path:
+     - '/home/goaty/Desktop/Tech/zephyr/boards/nordic/nrf9160dk'
+    qualifiers: 'nrf9160/ns'
+    revision: '0.14.0'
+  images:
+   - name: 'cellular-device'
+     source-dir: '/home/goaty/Desktop/Tech/cellular-device'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - '/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/empty.conf'
+     - '/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/empty.conf'
+     - '/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/empty.conf'
+    user-files:
+     - '/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/empty.conf'
+  sysbuild: 'true'
+version: '0.1.0'
+west:
+  command: '/home/goaty/.local/bin/west build -b nrf9160dk/nrf9160/ns --pristine'
+  topdir: '/home/goaty/Desktop/Tech'
+  version: '1.5.0'

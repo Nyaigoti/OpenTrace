@@ -1,0 +1,13 @@
+# Target labels
+ cellular-device
+# Source files and their labels
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device-complete.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-build.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-configure.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-download.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-install.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-mkdir.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-patch.rule
+/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-update.rule

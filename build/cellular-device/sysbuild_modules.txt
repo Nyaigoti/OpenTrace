@@ -1,0 +1,2 @@
+"nrf":"/home/goaty/Desktop/Tech/nrf":"/home/goaty/Desktop/Tech/nrf/sysbuild"
+"mcuboot":"/home/goaty/Desktop/Tech/bootloader/mcuboot":"/home/goaty/Desktop/Tech/bootloader/mcuboot/boot/zephyr/sysbuild"

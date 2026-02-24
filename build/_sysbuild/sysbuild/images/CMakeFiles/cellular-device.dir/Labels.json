@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/CMakeFiles/cellular-device-complete.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-build.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-configure.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-download.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-install.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-mkdir.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-patch.rule"
+		},
+		{
+			"file" : "/home/goaty/Desktop/Tech/cellular-device/build/_sysbuild/sysbuild/images/cellular-device-prefix/src/cellular-device-stamp/cellular-device-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cellular-device"
+		],
+		"name" : "cellular-device"
+	}
+}

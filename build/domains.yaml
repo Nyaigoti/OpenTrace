@@ -1,0 +1,7 @@
+default: cellular-device
+build_dir: /home/goaty/Desktop/Tech/cellular-device/build
+domains:
+  - name: cellular-device
+    build_dir: /home/goaty/Desktop/Tech/cellular-device/build/cellular-device
+flash_order:
+  - cellular-device
