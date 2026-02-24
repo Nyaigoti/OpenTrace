@@ -1,7 +1,7 @@
 # Device Firmware
 
 ## Project Overview
-This project implements the firmware for a cellular-connected package device. The device is designed to detect if a package or box has been opened (exposed to light) and immediately reports via an NB-IoT cellular connection.
+This project implements the firmware for a cellular-connected package device. The device is designed to detect if a package has been opened and immediately reports via an NB-IoT cellular connection.
 
 The firmware is built on the **nRF Connect SDK (Zephyr RTOS)** and runs on the **Nordic nRF9160 SiP**. It is optimized for ultra-low power consumption, remaining in a deep sleep state until it needs to perform its critical function.
 
